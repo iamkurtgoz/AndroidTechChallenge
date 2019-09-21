@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E4023B</color>
+    <color name="colorPrimaryDark">#E4023B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#000000</color>
+    <color name="black_trans">#66000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="trans">#00000000 </color>
+
+    <color name="red_dark">#AB1F24</color>
+    <color name="red">#FF0000</color>
+
+    <color name="app_orange">#FD8D26</color>
+    <color name="app_red">#EA2D3F</color>
+    <color name="app_green">#51AD54</color>
+    <color name="app_grey">#E1E3E4</color>
+</resources>

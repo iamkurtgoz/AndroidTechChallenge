@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_orders_row_layoutContent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:gravity="center|top">
+
+            <TextView
+                android:id="@+id/list_item_orders_row_textDate"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="@color/black"
+                android:textSize="70sp"
+                android:gravity="top|center"
+                android:text="08"/>
+
+            <TextView
+                android:id="@+id/list_item_orders_row_textMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ekim"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginEnd="5dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/list_item_orders_row_textMarketName"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="20"
+                    android:text="Market 1"
+                    android:gravity="center|start"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="80"
+                    android:src="@drawable/ic_arrow_right_black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/list_item_orders_row_textOrderDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="20"
+                    android:text="Şampuan 250 ml"
+                    android:gravity="center|start"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/list_item_orders_row_textProductPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="80"
+                    android:text="25TL"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <View
+                    android:id="@+id/list_item_orders_row_viewProductState"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@color/app_orange"/>
+
+                <TextView
+                    android:id="@+id/list_item_orders_row_textProductState"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Hazırlanıyor"
+                    android:gravity="center|start"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/app_orange"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_item_orders_row_layoutDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/app_grey"
+        android:visibility="gone"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/list_item_orders_row_textDetailOrderDetail"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="20"
+                android:text="Şampuan 250 ml"
+                android:gravity="center|start"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/list_item_orders_row_textDetailProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="80"
+                android:text="25TL"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="108dp"/>
+
+    </LinearLayout>
+</LinearLayout>
