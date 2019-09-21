@@ -7,9 +7,6 @@ import android.content.ContextWrapper;
 import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.util.Log;
-
-import com.iamkurtgoz.androidtechchallenge.R;
-import com.iamkurtgoz.androidtechchallenge.http.RetrofitRest;
 import com.iamkurtgoz.androidtechchallenge.list.models.OrderModel;
 import com.iamkurtgoz.androidtechchallenge.tools.Constants;
 
